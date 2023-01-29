@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/francis.jpg);
+	background-size: cover;
+	background-position: ;
+}
+#alert{
+	color: whitesmoke;
+	background-color: teal;
+	display: flex;
+	justify-content: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+nav ul li a:hover{
+	color: teal;
+	transition: .3s;
+	border-radius: 2px;
+}
+.quote {
+	margin: 20px 30px;
+}
+span{
+	color: teal;
+}
+.btn{
+	display: inline-block;
+	background-color: teal;
+	color: whitesmoke;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.btn:hover{
+    background: black;
+}
+.head1{
+	display: flex;
+	justify-content: center;
+}
+.categories{
+	margin: 70px 0;
+}
+#alert-1{
+	display: flex;
+	justify-content: center;
+	color: teal;
+}
+.row{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.col-3{
+	flex-basis: 30%;
+	min-width: 250px;
+	margin-bottom: 30px;
+}
+.image{
+	width: 100%;
+}
+.small-container{
+	max-width: 1080px;
+	margin: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: whitesmoke;
+}
+.col-4{
+	flex-basis: 25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+}
+.col-4 img{
+	width: 100%;
+}
+.title{
+	text-align: center;
+	margin: 0 auto 80px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+}
+.title::after{
+	content: "";
+	background: teal;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
